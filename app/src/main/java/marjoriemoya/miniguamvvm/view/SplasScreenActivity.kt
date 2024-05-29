@@ -19,16 +19,7 @@ class SplasScreenActivity : AppCompatActivity() {
         /**
          * Abiendo la pantalla con un click
          */
-        //Se declara la imagen como una variable
-//        val logoApp = findViewById<ImageView>(R.id.icono_pguno)
-//        logoApp.setOnClickListener {
-//          //  val abrirPantallaDos = Intent(this, Dos_LoginSingunpPageActivity::class.java)
-//            val abrirPantallaDos = Intent(this, Cinco_HomePageActivity::class.java)
-////            abrirPantallaDos.putExtra("nombre", "Jaime")
-////            abrirPantallaDos.putExtra("apellido", "Perez")
-////            abrirPantallaDos.putExtra("acepto_tyC", false)
-//            startActivity(abrirPantallaDos)
-//        }
+
 
         /**
          * Abiendo la pantalla con un timer
