@@ -14,6 +14,8 @@ class HomePageEmptyCaseActivity : AppCompatActivity() {
         binding = ActivityHomePageEmptyCaseBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+
+
         val registerResponse = UserData.registerResponse
 
         if (registerResponse != null) {

@@ -36,7 +36,7 @@ class LoginPageActivity : AppCompatActivity() {
 
             // Obtener el correo electrónico y la contraseña ingresados por el usuario
             val email = binding.lblNombrePg4.text.toString()
-            val password = binding.txtPass.toString()
+            val password = binding.txtP2.text.toString()
 
             // Iniciar sesión llamando al método login del ViewModel
             loginViewModel.login(email, password)
