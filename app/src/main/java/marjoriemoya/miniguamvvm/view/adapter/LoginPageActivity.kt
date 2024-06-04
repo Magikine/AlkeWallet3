@@ -41,7 +41,7 @@ class LoginPageActivity : AppCompatActivity() {
             // Iniciar sesión llamando al método login del ViewModel
             loginViewModel.login(email, password)
         }
-
+//
         // Observar el resultado del inicio de sesión desde el ViewModel
         loginViewModel.loginResultLiveData.observe(this, Observer { loginResult ->
             if (loginResult) {
