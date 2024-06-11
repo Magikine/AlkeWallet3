@@ -2,7 +2,9 @@ package marjoriemoya.miniguamvvm.view.adapter
 
 import android.content.Intent
 import android.os.Bundle
+import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
+import marjoriemoya.miniguamvvm.R
 import marjoriemoya.miniguamvvm.databinding.ActivityHomePageBinding
 import marjoriemoya.miniguamvvm.model.ListUserResponse
 import marjoriemoya.miniguamvvm.model.UserData
@@ -32,7 +34,11 @@ class HomePageActivity : AppCompatActivity() {
             val abrirPantallaOcho = Intent(this, SendMoneyActivity::class.java)
             startActivity(abrirPantallaOcho)
 
-
+            val txt_inicio_pghome = findViewById<TextView>(R.id.txt_inicio_pghome)
+            txt_inicio_pghome.setOnClickListener {
+                val abrirPantallaDos = Intent(this, LoginSignupPageActivity::class.java)
+                startActivity(abrirPantallaDos)
+            }
             finish() // Finalizar esta actividad después de abrir la pantalla de inicio de sesión
 
             // Obtener los datos de registro del usuario desde UserData

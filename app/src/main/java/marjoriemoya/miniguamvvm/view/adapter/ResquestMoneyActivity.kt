@@ -20,6 +20,8 @@ class ResquestMoneyActivity : AppCompatActivity() {
             val abrirPantallaCinco = Intent(this, HomePageActivity::class.java)
             startActivity(abrirPantallaCinco)
 
+
+
             finish() // Finalizar esta actividad después de abrir la pantalla de inicio de sesión
         }
 
