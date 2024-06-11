@@ -17,7 +17,7 @@ class SplasScreenActivity : AppCompatActivity() {
 
         setContentView(R.layout.activity_splas_screen)
         /**
-         * Abiendo la pantalla con un click
+         * Abiendo la pantalla con un click .
          */
 
 
@@ -27,8 +27,8 @@ class SplasScreenActivity : AppCompatActivity() {
         var task: TimerTask? = object : TimerTask() {
             override fun run() {
                 val abrirPantallaLogin = Intent(baseContext, LoginSignupPageActivity::class.java)
-//                abrirPantallaLogin.putExtra("nombre", "Jaime")
-//                abrirPantallaLogin.putExtra("apellido", "Perez")
+//                abrirPantallaLogin.putExtra("nombre", "Marjorie")
+//                abrirPantallaLogin.putExtra("apellido", "Moya")
 //                abrirPantallaLogin.putExtra("acepto_tyC", false)
                 startActivity(abrirPantallaLogin)
                 finish()
