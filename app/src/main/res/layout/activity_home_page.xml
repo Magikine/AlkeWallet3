@@ -32,11 +32,11 @@
         android:id="@+id/ic_notificacion"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="52dp"
+        android:layout_marginEnd="32dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView4"
-        app:layout_constraintVertical_bias="0.578"
+        app:layout_constraintVertical_bias="0.831"
         app:srcCompat="@drawable/notifications__icon" />
 
     <TextView
@@ -44,8 +44,8 @@
         style="@style/txt_blanco"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="92dp"
-        android:layout_marginTop="76dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="60dp"
         android:text="@string/inicio"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -56,8 +56,8 @@
         style="@style/txt_blanco"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="80dp"
-        android:layout_marginTop="36dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="32dp"
         android:alpha="0.5"
         android:text="hola_amanda"
         app:layout_constraintStart_toStartOf="parent"
@@ -68,8 +68,8 @@
         style="@style/txt_blanco"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="92dp"
-        android:layout_marginTop="12dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="32dp"
         android:text="@string/txt_balancetotal"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txt_saludo" />
@@ -79,13 +79,13 @@
         style="@style/txt_blanco"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="68dp"
+        android:layout_marginStart="56dp"
         android:text="@string/_124_57"
         android:textSize="40sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txt_balancetotal"
-        app:layout_constraintVertical_bias="0.111" />
+        app:layout_constraintVertical_bias="0.617" />
   </androidx.constraintlayout.widget.ConstraintLayout>
 
   <LinearLayout
@@ -133,10 +133,10 @@
 
   <ImageView
       android:id="@+id/imageView11"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:layout_marginStart="25dp"
-      android:layout_marginTop="335dp"
+      android:layout_width="0dp"
+      android:layout_height="36dp"
+      android:layout_marginStart="36dp"
+      android:layout_marginTop="324dp"
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintTop_toTopOf="parent"
       app:srcCompat="@drawable/path" />
@@ -151,8 +151,10 @@
       android:text="Ingresar Dinero"
       app:layout_constraintBottom_toTopOf="@+id/scrollView2"
       app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.523"
       app:layout_constraintStart_toEndOf="@+id/button"
-      app:layout_constraintTop_toBottomOf="@+id/constraintLayout" />
+      app:layout_constraintTop_toBottomOf="@+id/constraintLayout"
+      app:layout_constraintVertical_bias="0.458" />
 
   <ImageView
       android:id="@+id/imageView12"
@@ -163,8 +165,10 @@
       android:layout_marginBottom="65dp"
       app:layout_constraintBottom_toTopOf="@+id/scrollView2"
       app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.508"
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.0"
       app:srcCompat="@drawable/path__1_" />
 
   <TextView
@@ -177,14 +181,17 @@
       android:text="@string/ultimas_transacciones"
       app:layout_constraintBottom_toTopOf="@+id/scrollView2"
       app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="1.0"
       app:layout_constraintStart_toStartOf="parent"
-      app:layout_constraintTop_toBottomOf="@+id/constraintLayout" />
+      app:layout_constraintTop_toBottomOf="@+id/constraintLayout"
+      app:layout_constraintVertical_bias="0.0" />
 
   <ScrollView
       android:id="@+id/scrollView2"
       android:layout_width="match_parent"
       android:layout_height="match_parent"
       android:layout_marginTop="420dp"
+      app:layout_constraintEnd_toEndOf="parent"
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintTop_toTopOf="parent">
 

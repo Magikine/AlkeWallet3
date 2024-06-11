@@ -142,7 +142,7 @@
             android:background="@color/white"
             android:text="@string/reingresa_contraseña" />
     </com.google.android.material.textfield.TextInputLayout>
-    />
+
 
 
     <com.google.android.material.textfield.TextInputLayout
