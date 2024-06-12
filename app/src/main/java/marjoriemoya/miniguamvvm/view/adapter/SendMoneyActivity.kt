@@ -15,21 +15,27 @@ class SendMoneyActivity : AppCompatActivity() {
 
         binding = ActivitySendMoneyBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        // Configurar el OnClickListener para el botón de enviar de dinero
-        binding.button7.setOnClickListener {
 
-            // Abrir la pantalla de enviar de  dinero (Cinco_HomePageActivity)
-            val abrirPantallaCinco = Intent(this, HomePageActivity::class.java)
-            startActivity(abrirPantallaCinco)
+        val imageView15 = findViewById<ImageView>(R.id.imageView15)
+        imageView15.setOnClickListener {
+            val abrirPantallaSeis = Intent(this, HomePageEmptyCaseActivity::class.java)
+            startActivity(abrirPantallaSeis)
+
+            // Configurar el OnClickListener para el botón de enviar de dinero
+            binding.button7.setOnClickListener {
+
+                // Abrir la pantalla de enviar de  dinero (Cinco_HomePageActivity)
+                val abrirPantallaCinco = Intent(this, HomePageActivity::class.java)
+                startActivity(abrirPantallaCinco)
 
 
+                val imageView15 = findViewById<ImageView>(R.id.imageView15)
+                imageView15.setOnClickListener {
+                    val abrirPantallaSeis = Intent(this, HomePageEmptyCaseActivity::class.java)
+                    startActivity(abrirPantallaSeis)
+                    finish() // Finalizar esta actividad después de abrir la pantalla de inicio de sesión
 
-            val imageView15 =findViewById<ImageView>(R.id.imageView15)
-            imageView15.setOnClickListener {
-                val abrirPantallaSeis = Intent(this, HomePageEmptyCaseActivity::class.java)
-                startActivity(abrirPantallaSeis)
-                finish() // Finalizar esta actividad después de abrir la pantalla de inicio de sesión
-
+                }
             }
         }
     }

@@ -49,7 +49,9 @@
         android:text="@string/inicio"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:clickable="true"
+        android:onClick="onClick" />
 
     <TextView
         android:id="@+id/txt_saludo"
